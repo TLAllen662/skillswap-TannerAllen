@@ -30,9 +30,42 @@
       <section class="offerings" id="offerings" aria-labelledby="offerings-title">
         <h2 id="offerings-title">Skill offerings</h2>
         <p>Discover skills shared by members of your community.</p>
-        <div class="offering-placeholder">
-          <h3>Skill listings coming soon</h3>
-          <p>Check back to find a skill to learn or share one of your own.</p>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3>Guitar for Beginners</h3>
+            <p class="skill-card__description">Learn basic chords and play your first songs in a relaxed lesson.</p>
+            <p class="skill-card__provider">Provider: Maya Chen</p>
+            <p class="skill-card__price">$20 <span>per hour</span></p>
+            <button class="skill-card__toggle" type="button" aria-expanded="false" aria-controls="guitar-details">More details</button>
+            <p class="skill-card__details" id="guitar-details" hidden>Bring your guitar or ask about borrowing one. Lessons are available for complete beginners.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Everyday Spanish</h3>
+            <p class="skill-card__description">Practice useful conversation for travel, work, and daily life.</p>
+            <p class="skill-card__provider">Provider: Luis Rivera</p>
+            <p class="skill-card__price">$18 <span>per hour</span></p>
+            <button class="skill-card__toggle" type="button" aria-expanded="false" aria-controls="spanish-details">More details</button>
+            <p class="skill-card__details" id="spanish-details" hidden>Sessions are tailored to your level and include guided conversation practice.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Introduction to Web Design</h3>
+            <p class="skill-card__description">Explore the fundamentals of HTML and CSS by creating a simple webpage.</p>
+            <p class="skill-card__provider">Provider: Aisha Patel</p>
+            <p class="skill-card__price">$25 <span>per hour</span></p>
+            <button class="skill-card__toggle" type="button" aria-expanded="false" aria-controls="web-design-details">More details</button>
+            <p class="skill-card__details" id="web-design-details" hidden>Ideal for beginners. Bring a laptop; no previous coding experience is needed.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Plant-Based Cooking</h3>
+            <p class="skill-card__description">Learn approachable techniques for preparing flavorful plant-based meals.</p>
+            <p class="skill-card__provider">Provider: Jordan Lee</p>
+            <p class="skill-card__price">$22 <span>per hour</span></p>
+            <button class="skill-card__toggle" type="button" aria-expanded="false" aria-controls="cooking-details">More details</button>
+            <p class="skill-card__details" id="cooking-details" hidden>Choose a recipe together and get practical tips for adapting it to your kitchen.</p>
+          </article>
         </div>
       </section>
     </main>
